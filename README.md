@@ -13,6 +13,14 @@ A dagger extension for terraform operations
 ## TODO
 - Support more remote states
 
+## Include this in your cloak.yaml
+```yaml
+  - git:
+      remote: git@github.com:kpenfound/dagger-terraform.git
+      ref: main
+      path: cloak.yaml
+```
+
 ## Example
 ```gql
 query (
