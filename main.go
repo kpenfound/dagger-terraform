@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/Khan/genqlient/graphql"
-	"github.com/dagger/cloak/sdk/go/dagger"
+	"go.dagger.io/dagger/sdk/go/dagger"
 )
 
 func (r *terraform) apply(ctx context.Context, config dagger.FSID, token dagger.SecretID) (*dagger.Filesystem, error) {
